@@ -1,0 +1,116 @@
+
+| [English](README_EN.md) | 简体中文 |
+
+# [114. 二叉树展开为链表](https://leetcode.cn//problems/flatten-binary-tree-to-linked-list/)
+
+## 题目描述
+
+<p>给你二叉树的根结点 <code>root</code> ，请你将它展开为一个单链表：</p>
+
+<ul>
+	<li>展开后的单链表应该同样使用 <code>TreeNode</code> ，其中 <code>right</code> 子指针指向链表中下一个结点，而左子指针始终为 <code>null</code> 。</li>
+	<li>展开后的单链表应该与二叉树 <a href="https://baike.baidu.com/item/%E5%85%88%E5%BA%8F%E9%81%8D%E5%8E%86/6442839?fr=aladdin" target="_blank"><strong>先序遍历</strong></a> 顺序相同。</li>
+</ul>
+
+<p> </p>
+
+<p><strong>示例 1：</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/01/14/flaten.jpg" style="width: 500px; height: 226px;" />
+<pre>
+<strong>输入：</strong>root = [1,2,5,3,4,null,6]
+<strong>输出：</strong>[1,null,2,null,3,null,4,null,5,null,6]
+</pre>
+
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入：</strong>root = []
+<strong>输出：</strong>[]
+</pre>
+
+<p><strong>示例 3：</strong></p>
+
+<pre>
+<strong>输入：</strong>root = [0]
+<strong>输出：</strong>[0]
+</pre>
+
+<p> </p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li>树中结点数在范围 <code>[0, 2000]</code> 内</li>
+	<li><code>-100 <= Node.val <= 100</code></li>
+</ul>
+
+<p> </p>
+
+<p><strong>进阶：</strong>你可以使用原地算法（<code>O(1)</code> 额外空间）展开这棵树吗？</p>
+
+
+## 题解
+
+
+### Java
+
+```Java
+// @Title: 二叉树展开为链表 (Flatten Binary Tree to Linked List)
+// @Author: robert.sunq
+// @Date: 2021-06-15 00:39:40
+// @Runtime: 2 ms
+// @Memory: 37.7 MB
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public void flatten(TreeNode root) {
+        if(root == null) return;
+        Stack<TreeNode> st = new Stack<>();
+        TreeNode head = new TreeNode();
+        // pre 先序遍历的前一节点，p 当前节点
+        TreeNode pre = head,p = root;
+        st.push(root);
+        while(!st.isEmpty() ){
+            p = st.pop();
+            // 前一个节点的“尾指针”指向当前节点
+            pre.right = p;
+            pre.left = null;
+            // 保存下一轮的当前节点
+            pre = pre.right;
+            if(p.right != null) st.push(p.right);
+            if(p.left != null) st.push(p.left); 
+        }
+        pre.left = null;
+
+    }
+}
+```
+
+
+
+## 相关话题
+
+- [栈](https://leetcode.cn//tag/stack)
+- [树](https://leetcode.cn//tag/tree)
+- [深度优先搜索](https://leetcode.cn//tag/depth-first-search)
+- [链表](https://leetcode.cn//tag/linked-list)
+- [二叉树](https://leetcode.cn//tag/binary-tree)
+
+## 相似题目
+
+
+- [扁平化多级双向链表](../flatten-a-multilevel-doubly-linked-list/README.md)

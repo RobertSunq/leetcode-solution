@@ -1,0 +1,161 @@
+
+| [English](README_EN.md) | 简体中文 |
+
+# [399. 除法求值](https://leetcode.cn//problems/evaluate-division/)
+
+## 题目描述
+
+<p>给你一个变量对数组 <code>equations</code> 和一个实数值数组 <code>values</code> 作为已知条件，其中 <code>equations[i] = [A<sub>i</sub>, B<sub>i</sub>]</code> 和 <code>values[i]</code> 共同表示等式 <code>A<sub>i</sub> / B<sub>i</sub> = values[i]</code> 。每个 <code>A<sub>i</sub></code> 或 <code>B<sub>i</sub></code> 是一个表示单个变量的字符串。</p>
+
+<p>另有一些以数组 <code>queries</code> 表示的问题，其中 <code>queries[j] = [C<sub>j</sub>, D<sub>j</sub>]</code> 表示第 <code>j</code> 个问题，请你根据已知条件找出 <code>C<sub>j</sub> / D<sub>j</sub> = ?</code> 的结果作为答案。</p>
+
+<p>返回 <strong>所有问题的答案</strong> 。如果存在某个无法确定的答案，则用 <code>-1.0</code> 替代这个答案。如果问题中出现了给定的已知条件中没有出现的字符串，也需要用 <code>-1.0</code> 替代这个答案。</p>
+
+<p><strong>注意：</strong>输入总是有效的。你可以假设除法运算中不会出现除数为 0 的情况，且不存在任何矛盾的结果。</p>
+
+<p> </p>
+
+<p><strong>示例 1：</strong></p>
+
+<pre>
+<strong>输入：</strong>equations = [["a","b"],["b","c"]], values = [2.0,3.0], queries = [["a","c"],["b","a"],["a","e"],["a","a"],["x","x"]]
+<strong>输出：</strong>[6.00000,0.50000,-1.00000,1.00000,-1.00000]
+<strong>解释：</strong>
+条件：<em>a / b = 2.0</em>, <em>b / c = 3.0</em>
+问题：<em>a / c = ?</em>, <em>b / a = ?</em>, <em>a / e = ?</em>, <em>a / a = ?</em>, <em>x / x = ?</em>
+结果：[6.0, 0.5, -1.0, 1.0, -1.0 ]
+</pre>
+
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入：</strong>equations = [["a","b"],["b","c"],["bc","cd"]], values = [1.5,2.5,5.0], queries = [["a","c"],["c","b"],["bc","cd"],["cd","bc"]]
+<strong>输出：</strong>[3.75000,0.40000,5.00000,0.20000]
+</pre>
+
+<p><strong>示例 3：</strong></p>
+
+<pre>
+<strong>输入：</strong>equations = [["a","b"]], values = [0.5], queries = [["a","b"],["b","a"],["a","c"],["x","y"]]
+<strong>输出：</strong>[0.50000,2.00000,-1.00000,-1.00000]
+</pre>
+
+<p> </p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 <= equations.length <= 20</code></li>
+	<li><code>equations[i].length == 2</code></li>
+	<li><code>1 <= A<sub>i</sub>.length, B<sub>i</sub>.length <= 5</code></li>
+	<li><code>values.length == equations.length</code></li>
+	<li><code>0.0 < values[i] <= 20.0</code></li>
+	<li><code>1 <= queries.length <= 20</code></li>
+	<li><code>queries[i].length == 2</code></li>
+	<li><code>1 <= C<sub>j</sub>.length, D<sub>j</sub>.length <= 5</code></li>
+	<li><code>A<sub>i</sub>, B<sub>i</sub>, C<sub>j</sub>, D<sub>j</sub></code> 由小写英文字母与数字组成</li>
+</ul>
+
+
+## 题解
+
+
+### Java
+
+```Java
+// @Title: 除法求值 (Evaluate Division)
+// @Author: robert.sunq
+// @Date: 2021-06-28 00:09:56
+// @Runtime: 1 ms
+// @Memory: 37.3 MB
+
+class Solution {
+    public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
+        int count=0;
+        //统计出现的所有字符，并赋予对应的index
+        Map<String,Integer> map=new HashMap<>();
+        // 即节点信息
+        for (List<String> list:equations){
+            for (String s:list){
+                if(!map.containsKey(s)){
+                    // 此处的 count 即为字符在矩阵中的位置
+                    map.put(s,count++);
+                }
+            }
+        }
+        
+        //构建一个矩阵来代替图结构
+        // graph[row][col] 表示 字符 row/col的值
+        double[][] graph=new double[count+1][count+1];
+        
+        //初始化
+        for (String s:map.keySet()){
+            int x=map.get(s);
+            graph[x][x]=1.0;
+        }
+        int index=0;
+        // 将一直结果放入矩阵
+        for (List<String> list:equations){
+            // 获取字符
+            String a=list.get(0);
+            String b=list.get(1);
+            // 获取字符对应的坐标
+            int aa=map.get(a);
+            int bb=map.get(b);
+            // 将其放入矩阵中
+            double value=values[index++];
+            graph[aa][bb]=value;
+            graph[bb][aa]=1/value;
+        }
+        
+        //通过Floyd算法进行运算
+        int n=count+1;
+        for (int i=0;i<n;i++){
+            for (int j=0;j<n;j++){
+                // 将所有可以计算的结果进行计算
+                // 即  计算任意两个节点之间的值
+                for (int k=0;k<n;k++){
+                    if(j==k||graph[j][k]!=0) continue;
+                    if(graph[j][i]!=0&&graph[i][k]!=0){
+                        // j/k = j/i * i/k
+                        graph[j][k]=graph[j][i]*graph[i][k];
+                    }
+                }
+            }
+        }
+        
+        //直接通过查询矩阵得到答案
+        double[] res=new double[queries.size()];
+        for (int i=0;i<res.length;i++){
+            List<String> q=queries.get(i);
+            // 获得需要计算的两个字符
+            String a=q.get(0);
+            String b=q.get(1);
+            // 判断知否在节点中，并计算
+            if(map.containsKey(a)&&map.containsKey(b)){
+                double ans=graph[map.get(a)][map.get(b)];
+                res[i]=(ans==0?-1.0:ans);
+            }else {
+                res[i]=-1.0;
+            }
+        }
+        return res;
+    }
+}
+```
+
+
+
+## 相关话题
+
+- [深度优先搜索](https://leetcode.cn//tag/depth-first-search)
+- [广度优先搜索](https://leetcode.cn//tag/breadth-first-search)
+- [并查集](https://leetcode.cn//tag/union-find)
+- [图](https://leetcode.cn//tag/graph)
+- [数组](https://leetcode.cn//tag/array)
+- [最短路](https://leetcode.cn//tag/shortest-path)
+
+## 相似题目
+
+
+

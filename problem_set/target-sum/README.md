@@ -1,0 +1,95 @@
+
+| [English](README_EN.md) | 简体中文 |
+
+# [494. 目标和](https://leetcode.cn//problems/target-sum/)
+
+## 题目描述
+
+<p>给你一个整数数组 <code>nums</code> 和一个整数 <code>target</code> 。</p>
+
+<p>向数组中的每个整数前添加 <code>'+'</code> 或 <code>'-'</code> ，然后串联起所有整数，可以构造一个 <strong>表达式</strong> ：</p>
+
+<ul>
+	<li>例如，<code>nums = [2, 1]</code> ，可以在 <code>2</code> 之前添加 <code>'+'</code> ，在 <code>1</code> 之前添加 <code>'-'</code> ，然后串联起来得到表达式 <code>"+2-1"</code> 。</li>
+</ul>
+
+<p>返回可以通过上述方法构造的、运算结果等于 <code>target</code> 的不同 <strong>表达式</strong> 的数目。</p>
+
+<p> </p>
+
+<p><strong>示例 1：</strong></p>
+
+<pre>
+<strong>输入：</strong>nums = [1,1,1,1,1], target = 3
+<strong>输出：</strong>5
+<strong>解释：</strong>一共有 5 种方法让最终目标和为 3 。
+-1 + 1 + 1 + 1 + 1 = 3
++1 - 1 + 1 + 1 + 1 = 3
++1 + 1 - 1 + 1 + 1 = 3
++1 + 1 + 1 - 1 + 1 = 3
++1 + 1 + 1 + 1 - 1 = 3
+</pre>
+
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入：</strong>nums = [1], target = 1
+<strong>输出：</strong>1
+</pre>
+
+<p> </p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 <= nums.length <= 20</code></li>
+	<li><code>0 <= nums[i] <= 1000</code></li>
+	<li><code>0 <= sum(nums[i]) <= 1000</code></li>
+	<li><code>-1000 <= target <= 1000</code></li>
+</ul>
+
+
+## 题解
+
+
+### Java
+
+```Java
+// @Title: 目标和 (Target Sum)
+// @Author: robert.sunq
+// @Date: 2021-06-21 23:15:45
+// @Runtime: 586 ms
+// @Memory: 35.9 MB
+
+class Solution {
+    int res = 0;
+    public int findTargetSumWays(int[] nums, int target) {
+        recur(nums,0,target);
+        return res;
+    }
+    void recur(int[] nums , int i,int sum){
+        if(i == nums.length && sum == 0) {
+            res++;
+            return;
+        } 
+        if(i>= nums.length) return;
+        // 做加法
+        recur(nums,i+1,sum+nums[i]);
+        // 做减法
+        recur(nums,i+1,sum - nums[i]);
+    }
+}
+```
+
+
+
+## 相关话题
+
+- [数组](https://leetcode.cn//tag/array)
+- [动态规划](https://leetcode.cn//tag/dynamic-programming)
+- [回溯](https://leetcode.cn//tag/backtracking)
+
+## 相似题目
+
+
+- [给表达式添加运算符](../expression-add-operators/README.md)

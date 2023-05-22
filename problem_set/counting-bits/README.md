@@ -1,0 +1,99 @@
+
+| [English](README_EN.md) | 简体中文 |
+
+# [338. 比特位计数](https://leetcode.cn//problems/counting-bits/)
+
+## 题目描述
+
+<p>给你一个整数 <code>n</code> ，对于&nbsp;<code>0 &lt;= i &lt;= n</code> 中的每个 <code>i</code> ，计算其二进制表示中 <strong><code>1</code> 的个数</strong> ，返回一个长度为 <code>n + 1</code> 的数组 <code>ans</code> 作为答案。</p>
+
+<p>&nbsp;</p>
+
+<div class="original__bRMd">
+<div>
+<p><strong>示例 1：</strong></p>
+
+<pre>
+<strong>输入：</strong>n = 2
+<strong>输出：</strong>[0,1,1]
+<strong>解释：</strong>
+0 --&gt; 0
+1 --&gt; 1
+2 --&gt; 10
+</pre>
+
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入：</strong>n = 5
+<strong>输出：</strong>[0,1,1,2,1,2]
+<strong>解释：</strong>
+0 --&gt; 0
+1 --&gt; 1
+2 --&gt; 10
+3 --&gt; 11
+4 --&gt; 100
+5 --&gt; 101
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>0 &lt;= n &lt;= 10<sup>5</sup></code></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>进阶：</strong></p>
+
+<ul>
+	<li>很容易就能实现时间复杂度为 <code>O(n log n)</code> 的解决方案，你可以在线性时间复杂度 <code>O(n)</code> 内用一趟扫描解决此问题吗？</li>
+	<li>你能不使用任何内置函数解决此问题吗？（如，C++ 中的&nbsp;<code>__builtin_popcount</code> ）</li>
+</ul>
+</div>
+</div>
+
+
+## 题解
+
+
+### Java
+
+```Java
+// @Title: 比特位计数 (Counting Bits)
+// @Author: robert.sunq
+// @Date: 2021-06-20 00:32:51
+// @Runtime: 2 ms
+// @Memory: 42.3 MB
+
+class Solution {
+    public int[] countBits(int n) {
+        int[] dp = new int[n+1];
+
+        for(int i=1;i<=n;i++){
+            // 奇数的一个数，是其前一个1个数 + 1
+            if(i % 2 == 1){
+                dp[i] = dp[i-1]+1;
+            }else{
+                // 偶数的一的个数  与 其右移后一的个数相同， 因为出去了最后的0
+                dp[i] = dp[i>>1];
+            }
+        }
+        return dp;
+    }
+}
+```
+
+
+
+## 相关话题
+
+- [位运算](https://leetcode.cn//tag/bit-manipulation)
+- [动态规划](https://leetcode.cn//tag/dynamic-programming)
+
+## 相似题目
+
+
+- [位1的个数](../number-of-1-bits/README.md)
