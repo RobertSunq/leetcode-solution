@@ -45,8 +45,14 @@ if __name__ == '__main__':
             main().update()
             break
         elif key == '2':
-            main().rebuild()
-            break
+            print("确定重建 (y/n) :")
+            key = input()
+            if key == 'y' or key == 'Y':
+                main().rebuild()
+                break
+            else:
+                print('请重新选择！')
+                continue
         else:
             print('请重新选择！')
 
