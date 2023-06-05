@@ -36,3 +36,4 @@ __pycache__/
 *$py.class
 /generator/target/
 /generator/database/
+/static/
