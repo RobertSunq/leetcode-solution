@@ -738,11 +738,11 @@ https://codetop.cc/#/home
 | ---- | ------------------------------------------------------------ | ---- |
 |      | [剑指 Offer II 011. 0 和 1 个数相同的子数组](https://leetcode.cn/problems/A1NYOS/) | 5    |
 |      | [剑指 Offer II 012. 左右两边子数组的和相等](https://leetcode.cn/problems/tvdfij/) |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 013. 二维子矩阵的和](https://leetcode.cn/problems/O4NDxx/) |      |
+|      | [剑指 Offer II 014. 字符串中的变位词](https://leetcode.cn/problems/MPnaiL/) | 4    |
+|      | [剑指 Offer II 015. 字符串中的所有变位词](https://leetcode.cn/problems/VabMRr/) |      |
+|      | [剑指 Offer II 016. 不含重复字符的最长子字符串](https://leetcode.cn/problems/wtcaE1/) |      |
+|      | [剑指 Offer II 017. 含有所有字符的最短字符串](https://leetcode.cn/problems/M1oyTv/) |      |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
