@@ -1,0 +1,120 @@
+
+| [English](README_EN.md) | 简体中文 |
+
+# [剑指 Offer II 019. 最多删除一个字符得到回文](https://leetcode.cn//problems/RQku0D/)
+
+## 题目描述
+
+<p>给定一个非空字符串&nbsp;<code>s</code>，请判断如果&nbsp;<strong>最多 </strong>从字符串中删除一个字符能否得到一个回文字符串。</p>
+
+<p>&nbsp;</p>
+
+<p><strong>示例 1:</strong></p>
+
+<pre>
+<strong>输入:</strong> s = &quot;aba&quot;
+<strong>输出:</strong> true
+</pre>
+
+<p><strong>示例 2:</strong></p>
+
+<pre>
+<strong>输入:</strong> s = &quot;abca&quot;
+<strong>输出:</strong> true
+<strong>解释:</strong> 可以删除 &quot;c&quot; 字符 或者 &quot;b&quot; 字符
+</pre>
+
+<p><strong>示例 3:</strong></p>
+
+<pre>
+<strong>输入:</strong> s = &quot;abc&quot;
+<strong>输出:</strong> false</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>s</code> 由小写英文字母组成</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><meta charset="UTF-8" />注意：本题与主站 680&nbsp;题相同：&nbsp;<a href="https://leetcode-cn.com/problems/valid-palindrome-ii/">https://leetcode-cn.com/problems/valid-palindrome-ii/</a></p>
+
+
+## 题解
+
+
+### Java
+
+```Java
+// @Title: 最多删除一个字符得到回文 (最多删除一个字符得到回文)
+// @Author: robert.sunq
+// @Date: 2023-06-15 23:12:53
+// @Runtime: 4 ms
+// @Memory: 43.4 MB
+
+class Solution {
+    public boolean validPalindrome(String s) {
+        int start = 0;
+        int n = s.length();
+        int end = n - 1;
+        int tmpStart, tmpEnd;
+        while(start < end) {
+            if (s.charAt(start) != s.charAt(end)) {
+                break;
+            }
+            start++;
+            end--;
+        }
+
+        if (start >= end) {
+            return true;
+        }
+
+        tmpStart = start;
+        tmpEnd = end;
+        // 移动其中一个点，表示删除了字符
+        start++;
+        while (start < end) {
+            if (s.charAt(start) != s.charAt(end)) {
+                break;
+            }
+            start++;
+            end--;
+        }
+
+        if (start >= end) {
+            return true;
+        }
+
+        // 移动另一边，表示删除了字符
+        start = tmpStart;
+        end = tmpEnd;
+        end--;
+        while(start < end) {
+            if (s.charAt(start) != s.charAt(end)) {
+                return false;
+            }
+            start++;
+            end--;
+        }
+        return true;
+    }
+}
+```
+
+
+
+## 相关话题
+
+- [贪心](https://leetcode.cn//tag/greedy)
+- [双指针](https://leetcode.cn//tag/two-pointers)
+- [字符串](https://leetcode.cn//tag/string)
+
+## 相似题目
+
+
+
