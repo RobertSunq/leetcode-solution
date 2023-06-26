@@ -762,8 +762,8 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 025. 链表中的两数相加](https://leetcode.cn/problems/lMSNwu/) |      |
 |      | [剑指 Offer II 026. 重排链表](https://leetcode.cn/problems/LGjMqU/) |      |
 |      | [剑指 Offer II 027. 回文链表](https://leetcode.cn/problems/aMhZSa/) |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 028. 展平多级双向链表](https://leetcode.cn/problems/Qv1Da2/) |      |
+|      | [剑指 Offer II 029. 排序的循环链表](https://leetcode.cn/problems/4ueAj6/) |      |
 |      |                                                              |      |
 
 > 
