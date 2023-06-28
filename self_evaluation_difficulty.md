@@ -778,10 +778,10 @@ https://codetop.cc/#/home
 | ---- | ------------------------------------------------------------ | ---- |
 |      | [剑指 Offer II 031. 最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) |      |
 |      | [剑指 Offer II 032. 有效的变位词](https://leetcode.cn/problems/dKk3P7/) |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 033. 变位词组](https://leetcode.cn/problems/sfvd7V/) |      |
+|      | [剑指 Offer II 034. 外星语言是否排序](https://leetcode.cn/problems/lwyVBB/) |      |
+|      | [剑指 Offer II 035. 最小时间差](https://leetcode.cn/problems/569nqc/) |      |
+|      | [剑指 Offer II 036. 后缀表达式](https://leetcode.cn/problems/8Zf90G/) |      |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
