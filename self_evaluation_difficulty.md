@@ -782,8 +782,8 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 034. 外星语言是否排序](https://leetcode.cn/problems/lwyVBB/) |      |
 |      | [剑指 Offer II 035. 最小时间差](https://leetcode.cn/problems/569nqc/) |      |
 |      | [剑指 Offer II 036. 后缀表达式](https://leetcode.cn/problems/8Zf90G/) |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 037. 小行星碰撞](https://leetcode.cn/problems/XagZNi/) |      |
+|      | [剑指 Offer II 038. 每日温度](https://leetcode.cn/problems/iIQa4I/) |      |
 |      |                                                              |      |
 |      |                                                              |      |
 
