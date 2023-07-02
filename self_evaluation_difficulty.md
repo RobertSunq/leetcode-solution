@@ -784,7 +784,7 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 036. 后缀表达式](https://leetcode.cn/problems/8Zf90G/) |      |
 |      | [剑指 Offer II 037. 小行星碰撞](https://leetcode.cn/problems/XagZNi/) |      |
 |      | [剑指 Offer II 038. 每日温度](https://leetcode.cn/problems/iIQa4I/) |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 039. 直方图最大矩形面积](https://leetcode.cn/problems/0ynMMM/) |      |
 |      |                                                              |      |
 
 > 
