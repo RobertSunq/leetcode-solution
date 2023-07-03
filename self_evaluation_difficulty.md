@@ -784,8 +784,8 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 036. 后缀表达式](https://leetcode.cn/problems/8Zf90G/) |      |
 |      | [剑指 Offer II 037. 小行星碰撞](https://leetcode.cn/problems/XagZNi/) |      |
 |      | [剑指 Offer II 038. 每日温度](https://leetcode.cn/problems/iIQa4I/) |      |
-|      | [剑指 Offer II 039. 直方图最大矩形面积](https://leetcode.cn/problems/0ynMMM/) |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 039. 直方图最大矩形面积](https://leetcode.cn/problems/0ynMMM/) | 4    |
+|      | [剑指 Offer II 040. 矩阵中最大的矩形](https://leetcode.cn/problems/PLYXKQ/description/) | 4    |
 
 > 
 
@@ -793,18 +793,18 @@ https://codetop.cc/#/home
 
 
 
-| #    | 题名 | 难度 |
-| ---- | ---- | ---- |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [剑指 Offer II 041. 滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U/?envType=study-plan-v2&envId=coding-interviews-special) |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
 
 > 
 
