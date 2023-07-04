@@ -796,10 +796,10 @@ https://codetop.cc/#/home
 | #    | 题名                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ---- |
 |      | [剑指 Offer II 041. 滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U/?envType=study-plan-v2&envId=coding-interviews-special) |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 042. 最近请求次数](https://leetcode.cn/problems/H8086Q/?envType=study-plan-v2&envId=coding-interviews-special) |      |
+|      | [剑指 Offer II 043. 往完全二叉树添加节点](https://leetcode.cn/problems/NaqhDT/?envType=study-plan-v2&envId=coding-interviews-special) |      |
+|      | [二叉树每层的最大值](https://leetcode.cn/problems/hPov7L/solutions/1619295/er-cha-shu-mei-ceng-de-zui-da-zhi-by-lee-q4y2/) |      |
+|      | [剑指 Offer II 045. 二叉树最底层最左边的值](https://leetcode.cn/problems/LwUNpT/?envType=study-plan-v2&envId=coding-interviews-special) |      |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
