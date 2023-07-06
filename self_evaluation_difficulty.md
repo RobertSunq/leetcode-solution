@@ -803,8 +803,8 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 046. 二叉树的右侧视图](https://leetcode.cn/problems/WNC0Lk/?envType=study-plan-v2&envId=coding-interviews-special) |      |
 |      | [剑指 Offer II 047. 二叉树剪枝](https://leetcode.cn/problems/pOCWxh/?envType=study-plan-v2&envId=coding-interviews-special) |      |
 |      | [剑指 Offer II 048. 序列化与反序列化二叉树](https://leetcode.cn/problems/h54YBf/?envType=study-plan-v2&envId=coding-interviews-special) |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 049. 从根节点到叶节点的路径数字之和](https://leetcode.cn/problems/3Etpl5/description/?envType=study-plan-v2&envId=coding-interviews-special) | 3    |
+|      | [剑指 Offer II 050. 向下的路径节点之和](https://leetcode.cn/problems/6eUYwP/description/) | 4    |
 
 > 
 
