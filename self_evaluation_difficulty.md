@@ -806,7 +806,11 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 049. 从根节点到叶节点的路径数字之和](https://leetcode.cn/problems/3Etpl5/description/?envType=study-plan-v2&envId=coding-interviews-special) | 3    |
 |      | [剑指 Offer II 050. 向下的路径节点之和](https://leetcode.cn/problems/6eUYwP/description/) | 4    |
 
-> 
+> https://leetcode.cn/problems/QTMn0o/description/  剑指 Offer II 010. 和为 k 的子数组
+>
+> https://leetcode.cn/problems/6eUYwP/description/  剑指 Offer II 050. 向下的路径节点之和
+>
+> 两题参考着考虑下
 
 
 
@@ -814,18 +818,18 @@ https://codetop.cc/#/home
 
 
 
-| #    | 题名 | 难度 |
-| ---- | ---- | ---- |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [剑指 Offer II 051. 节点之和最大的路径](https://leetcode.cn/problems/jC7MId/?envType=study-plan-v2&envId=coding-interviews-special) | 4    |
+|      | [剑指 Offer II 052. 展平二叉搜索树](https://leetcode.cn/problems/NYBBNL/?envType=study-plan-v2&envId=coding-interviews-special) |      |
+|      | [剑指 Offer II 053. 二叉搜索树中的中序后继](https://leetcode.cn/problems/P5rCT8/?envType=study-plan-v2&envId=coding-interviews-special) | 3    |
+|      | [剑指 Offer II 054. 所有大于等于节点的值之和](https://leetcode.cn/problems/w6cpku/?envType=study-plan-v2&envId=coding-interviews-special) |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
 
 > 
 
