@@ -845,7 +845,7 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 061. 和最小的 k 个数对](https://leetcode.cn/problems/qn8gGX/description/) |      |
 |      | [剑指 Offer II 062. 实现前缀树](https://leetcode.cn/problems/QC3q1f/) | 3    |
 |      | [剑指 Offer II 063. 替换单词](https://leetcode.cn/problems/UhWRSj/) |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 064. 神奇的字典](https://leetcode.cn/problems/US1pGT/description/?envType=study-plan-v2&envId=coding-interviews-special) |      |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
