@@ -846,8 +846,8 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 062. 实现前缀树](https://leetcode.cn/problems/QC3q1f/) | 3    |
 |      | [剑指 Offer II 063. 替换单词](https://leetcode.cn/problems/UhWRSj/) |      |
 |      | [剑指 Offer II 064. 神奇的字典](https://leetcode.cn/problems/US1pGT/description/?envType=study-plan-v2&envId=coding-interviews-special) |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 065. 最短的单词编码](https://leetcode.cn/problems/iSwD2y/) | 3    |
+|      | [剑指 Offer II 066. 单词之和](https://leetcode.cn/problems/z1R5dt/) |      |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
