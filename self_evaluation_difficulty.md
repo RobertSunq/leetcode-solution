@@ -863,10 +863,10 @@ https://codetop.cc/#/home
 | #    | 题名                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ---- |
 |      | [剑指 Offer II 070. 排序数组中只出现一次的数字](https://leetcode.cn/problems/skFtm2/) |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 071. 按权重生成随机数](https://leetcode.cn/problems/cuyjEf/) |      |
+|      | [剑指 Offer II 072. 求平方根](https://leetcode.cn/problems/jJ0w9p/) |      |
+|      | [剑指 Offer II 073. 狒狒吃香蕉](https://leetcode.cn/problems/nZZqjQ/) |      |
+|      | [剑指 Offer II 074. 合并区间](https://leetcode.cn/problems/SsGoHC/) |      |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
