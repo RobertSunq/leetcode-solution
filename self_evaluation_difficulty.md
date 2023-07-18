@@ -867,13 +867,13 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 072. 求平方根](https://leetcode.cn/problems/jJ0w9p/) |      |
 |      | [剑指 Offer II 073. 狒狒吃香蕉](https://leetcode.cn/problems/nZZqjQ/) |      |
 |      | [剑指 Offer II 074. 合并区间](https://leetcode.cn/problems/SsGoHC/) |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 075. 数组相对排序](https://leetcode.cn/problems/0H97ZC/) |      |
+|      | [剑指 Offer II 076. 数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2/) | 4    |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
 
-> 
+>   [剑指 Offer II 076. 数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2/)   自己实现下常用的排序方法。
 
 
 
