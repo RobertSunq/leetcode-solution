@@ -869,7 +869,7 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 074. 合并区间](https://leetcode.cn/problems/SsGoHC/) |      |
 |      | [剑指 Offer II 075. 数组相对排序](https://leetcode.cn/problems/0H97ZC/) |      |
 |      | [剑指 Offer II 076. 数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2/) | 4    |
-|      |                                                              |      |
+|      | [剑指 Offer II 077. 链表排序](https://leetcode.cn/problems/7WHec2/) | 3    |
 |      |                                                              |      |
 |      |                                                              |      |
 
