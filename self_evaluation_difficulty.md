@@ -870,8 +870,8 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 075. 数组相对排序](https://leetcode.cn/problems/0H97ZC/) |      |
 |      | [剑指 Offer II 076. 数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2/) | 4    |
 |      | [剑指 Offer II 077. 链表排序](https://leetcode.cn/problems/7WHec2/) | 3    |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 078. 合并排序链表](https://leetcode.cn/problems/vvXgSW/) |      |
+|      | [剑指 Offer II 079. 所有子集](https://leetcode.cn/problems/TVdhkn/) |      |
 
 >   [剑指 Offer II 076. 数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2/)   自己实现下常用的排序方法。
 
@@ -881,18 +881,18 @@ https://codetop.cc/#/home
 
 
 
-| #    | 题名 | 难度 |
-| ---- | ---- | ---- |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [剑指 Offer II 080. 含有 k 个元素的组合](https://leetcode.cn/problems/uUsW3B/) |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
 
 > 
 
