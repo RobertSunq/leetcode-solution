@@ -886,7 +886,7 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 080. 含有 k 个元素的组合](https://leetcode.cn/problems/uUsW3B/) |      |
 |      | [剑指 Offer II 081. 允许重复选择元素的组合](https://leetcode.cn/problems/Ygoe9J/) | 3    |
 |      | [剑指 Offer II 082. 含有重复元素集合的组合](https://leetcode.cn/problems/4sjJUc/) | 4    |
-|      |                                                              |      |
+|      | [剑指 Offer II 083. 没有重复元素集合的全排列](https://leetcode.cn/problems/VvJkup/) | 4    |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
