@@ -887,7 +887,7 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 081. 允许重复选择元素的组合](https://leetcode.cn/problems/Ygoe9J/) | 3    |
 |      | [剑指 Offer II 082. 含有重复元素集合的组合](https://leetcode.cn/problems/4sjJUc/) | 4    |
 |      | [剑指 Offer II 083. 没有重复元素集合的全排列](https://leetcode.cn/problems/VvJkup/) | 4    |
-|      |                                                              |      |
+|      | [剑指 Offer II 084. 含有重复元素集合的全排列 ](https://leetcode.cn/problems/7p8L0Z/) | 4    |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
@@ -895,6 +895,8 @@ https://codetop.cc/#/home
 |      |                                                              |      |
 
 > 剑指 Offer II 082. 含有重复元素集合的组合  看下如何边递归边去重
+>
+>   [剑指 Offer II 084. 含有重复元素集合的全排列 ](https://leetcode.cn/problems/7p8L0Z/) 仔细想想是怎么跳过相同元素重复放入 index 的
 
 
 
