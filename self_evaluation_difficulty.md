@@ -888,15 +888,19 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 082. 含有重复元素集合的组合](https://leetcode.cn/problems/4sjJUc/) | 4    |
 |      | [剑指 Offer II 083. 没有重复元素集合的全排列](https://leetcode.cn/problems/VvJkup/) | 4    |
 |      | [剑指 Offer II 084. 含有重复元素集合的全排列 ](https://leetcode.cn/problems/7p8L0Z/) | 4    |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 085. 生成匹配的括号](https://leetcode.cn/problems/IDBivT/) |      |
+|      | [剑指 Offer II 086. 分割回文子字符串](https://leetcode.cn/problems/M99OJA/) | 4    |
+|      | [剑指 Offer II 087. 复原 IP ](https://leetcode.cn/problems/0on3uN/) |      |
 |      |                                                              |      |
 |      |                                                              |      |
 
 > 剑指 Offer II 082. 含有重复元素集合的组合  看下如何边递归边去重
 >
 >   [剑指 Offer II 084. 含有重复元素集合的全排列 ](https://leetcode.cn/problems/7p8L0Z/) 仔细想想是怎么跳过相同元素重复放入 index 的
+>
+> [剑指 Offer II 086. 分割回文子字符串](https://leetcode.cn/problems/M99OJA/)  思考下这里是如何递归回溯的
+
+
 
 
 
