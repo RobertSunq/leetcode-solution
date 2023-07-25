@@ -891,8 +891,8 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 085. 生成匹配的括号](https://leetcode.cn/problems/IDBivT/) |      |
 |      | [剑指 Offer II 086. 分割回文子字符串](https://leetcode.cn/problems/M99OJA/) | 4    |
 |      | [剑指 Offer II 087. 复原 IP ](https://leetcode.cn/problems/0on3uN/) |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 088. 爬楼梯的最少成本](https://leetcode.cn/problems/GzCJIP/) |      |
+|      | [剑指 Offer II 089. 房屋偷盗](https://leetcode.cn/problems/Gu0c2T/) |      |
 
 > 剑指 Offer II 082. 含有重复元素集合的组合  看下如何边递归边去重
 >
