@@ -912,7 +912,7 @@ https://codetop.cc/#/home
 | ---- | ------------------------------------------------------------ | ---- |
 |      | [剑指 Offer II 090. 环形房屋偷盗](https://leetcode.cn/problems/PzWKhm/) |      |
 |      | [剑指 Offer II 091. 粉刷房子](https://leetcode.cn/problems/JEj789/) |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 092. 翻转字符](https://leetcode.cn/problems/cyJERH/) | 4    |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
