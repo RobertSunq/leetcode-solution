@@ -1,0 +1,108 @@
+
+| [English](README_EN.md) | 简体中文 |
+
+# [剑指 Offer II 093. 最长斐波那契数列](https://leetcode.cn//problems/Q91FMA/)
+
+## 题目描述
+
+<p>如果序列&nbsp;<code>X_1, X_2, ..., X_n</code>&nbsp;满足下列条件，就说它是&nbsp;<em>斐波那契式&nbsp;</em>的：</p>
+
+<ul>
+	<li><code>n &gt;= 3</code></li>
+	<li>对于所有&nbsp;<code>i + 2 &lt;= n</code>，都有&nbsp;<code>X_i + X_{i+1} = X_{i+2}</code></li>
+</ul>
+
+<p>给定一个<strong>严格递增</strong>的正整数数组形成序列 <code>arr</code>&nbsp;，找到 <code>arr</code> 中最长的斐波那契式的子序列的长度。如果一个不存在，返回&nbsp;&nbsp;0 。</p>
+
+<p><em>（回想一下，子序列是从原序列&nbsp; <code>arr</code> 中派生出来的，它从 <code>arr</code> 中删掉任意数量的元素（也可以不删），而不改变其余元素的顺序。例如，&nbsp;<code>[3, 5, 8]</code>&nbsp;是&nbsp;<code>[3, 4, 5, 6, 7, 8]</code>&nbsp;的一个子序列）</em></p>
+
+<p>&nbsp;</p>
+
+<ul>
+</ul>
+
+<p><strong>示例 1：</strong></p>
+
+<pre>
+<strong>输入: </strong>arr =<strong> </strong>[1,2,3,4,5,6,7,8]
+<strong>输出: </strong>5
+<strong>解释: </strong>最长的斐波那契式子序列为 [1,2,3,5,8] 。
+</pre>
+
+<p><strong>示例&nbsp;2：</strong></p>
+
+<pre>
+<strong>输入: </strong>arr =<strong> </strong>[1,3,7,11,12,14,18]
+<strong>输出: </strong>3
+<strong>解释</strong>: 最长的斐波那契式子序列有 [1,11,12]、[3,11,14] 以及 [7,11,18] 。
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>3 &lt;= arr.length &lt;= 1000</code></li>
+	<li>
+	<p><code>1 &lt;= arr[i] &lt; arr[i + 1] &lt;= 10^9</code></p>
+	</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><meta charset="UTF-8" />注意：本题与主站 873&nbsp;题相同：&nbsp;<a href="https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/">https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/</a></p>
+
+
+## 题解
+
+
+### Java
+
+```Java
+// @Title: 最长斐波那契数列 (最长斐波那契数列)
+// @Author: robert.sunq
+// @Date: 2023-07-28 22:32:54
+// @Runtime: 85 ms
+// @Memory: 54.4 MB
+
+class Solution {
+    public int lenLongestFibSubseq(int[] arr) {
+        Map<Integer, Integer> keyToIndex = new HashMap<>();
+        int n = arr.length;
+        for (int i = 0; i< n ; i++) {
+            keyToIndex.put(arr[i], i);
+        }
+
+
+        // i , j 表示 序列的最后两位下标， dp[i][j] 表示 x, x, x, j , i 的个数
+        int[][] dp = new int[n][n];
+        int ans = 0;
+        for (int i = 0; i< n; i++) {
+            // 从最大值开始往下降， 保证前缀为 dp[j][k]
+            for (int j = i - 1; j >= 0 && arr[j] * 2 > arr[i]; j--) {
+                int k = keyToIndex.getOrDefault(arr[i] - arr[j], -1);
+                if (k >= 0) {
+                    // 因为初始化都是0， 所以对于最开始的序列， 前两个之数字是没有加入到计算的
+                    dp[i][j] = Math.max(dp[j][k] + 1, 3);
+                }
+                ans = Math.max(ans, dp[i][j]);
+            }
+        }
+
+        return ans;
+    }
+}
+```
+
+
+
+## 相关话题
+
+- [数组](https://leetcode.cn//tag/array)
+- [哈希表](https://leetcode.cn//tag/hash-table)
+- [动态规划](https://leetcode.cn//tag/dynamic-programming)
+
+## 相似题目
+
+
+
