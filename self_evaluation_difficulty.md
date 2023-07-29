@@ -915,8 +915,8 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 092. 翻转字符](https://leetcode.cn/problems/cyJERH/) | 4    |
 |      | [剑指 Offer II 093. 最长斐波那契数列](https://leetcode.cn/problems/Q91FMA/) | 4    |
 |      | [剑指 Offer II 094. 最少回文分割](https://leetcode.cn/problems/omKAoA/) | 5    |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 095. 最长公共子序列](https://leetcode.cn/problems/qJnOS7/) | 5    |
+|      | [剑指 Offer II 096. 字符串交织](https://leetcode.cn/problems/IY6buf/) | 4    |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
