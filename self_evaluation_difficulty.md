@@ -932,9 +932,9 @@ https://codetop.cc/#/home
 | #    | 题名                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ---- |
 |      | [剑指 Offer II 100. 三角形中最小路径之和](https://leetcode.cn/problems/IlPe0q/) |      |
-|      | [剑指 Offer II 101. 分割等和子集](https://leetcode.cn/problems/NUPfPr/) |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 101. 分割等和子集](https://leetcode.cn/problems/NUPfPr/) | 4    |
+|      | [剑指 Offer II 102. 加减的目标值](https://leetcode.cn/problems/YaVDxD/) | 4    |
+|      | [剑指 Offer II 103. 最少的硬币数目](https://leetcode.cn/problems/gaM7Ch/) |      |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
