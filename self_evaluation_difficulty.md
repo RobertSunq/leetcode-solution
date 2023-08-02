@@ -863,7 +863,7 @@ https://codetop.cc/#/home
 | #    | 题名                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ---- |
 |      | [剑指 Offer II 070. 排序数组中只出现一次的数字](https://leetcode.cn/problems/skFtm2/) |      |
-|      | [剑指 Offer II 071. 按权重生成随机数](https://leetcode.cn/problems/cuyjEf/) |      |
+|      | [剑指 Offer II 071. 按权重生成随机数](https://leetcode.cn/problems/cuyjEf/) | 1    |
 |      | [剑指 Offer II 072. 求平方根](https://leetcode.cn/problems/jJ0w9p/) |      |
 |      | [剑指 Offer II 073. 狒狒吃香蕉](https://leetcode.cn/problems/nZZqjQ/) |      |
 |      | [剑指 Offer II 074. 合并区间](https://leetcode.cn/problems/SsGoHC/) |      |
@@ -934,9 +934,9 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 100. 三角形中最小路径之和](https://leetcode.cn/problems/IlPe0q/) |      |
 |      | [剑指 Offer II 101. 分割等和子集](https://leetcode.cn/problems/NUPfPr/) | 4    |
 |      | [剑指 Offer II 102. 加减的目标值](https://leetcode.cn/problems/YaVDxD/) | 4    |
-|      | [剑指 Offer II 103. 最少的硬币数目](https://leetcode.cn/problems/gaM7Ch/) |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [剑指 Offer II 103. 最少的硬币数目](https://leetcode.cn/problems/gaM7Ch/) | 2    |
+|      | [剑指 Offer II 104. 排列的数目](https://leetcode.cn/problems/D0F0SV/) | 4    |
+|      | [剑指 Offer II 105. 岛屿的最大面积](https://leetcode.cn/problems/ZL6zAn/) |      |
 |      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
