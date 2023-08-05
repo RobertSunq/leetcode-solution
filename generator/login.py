@@ -12,6 +12,7 @@ class login:
         self.username = username
         self.password = password
         self.__cookies = ''
+        self.__headers = ''
         self.status = False
 
     def do_login(self):
@@ -26,6 +27,10 @@ class login:
             'x-csrftoken': token,
             'x-requested-with': 'XMLHttpRequest'
         })
+        # todo 修改为从浏览器获取的真实 cookie
+        headers.update({
+            'Cookie': ''
+        })
         payload = {
             'login': self.username,
             'password': self.password,
@@ -38,6 +43,7 @@ class login:
         if resp.status_code == 200:
             self.status = True
             self.__cookies = resp.cookies
+            self.__headers = headers
             # user = resp.json()['form']['fields']['login']['value']
         if self.status:
             print(f'{self.username} 登录成功！')
@@ -51,3 +57,9 @@ class login:
         if not self.status:
             self.do_login()
         return self.__cookies
+
+    @property
+    def headers(self):
+        if not self.status:
+            self.do_login()
+        return self.__headers

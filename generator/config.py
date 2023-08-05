@@ -25,8 +25,8 @@ class config:
         # leetcode
         self.leetcode_use_country = conf.get('leetcode', 'use_country', fallback="cn")
         self.leetcode_us_url = conf.get('leetcode', 'us_url', fallback="https://leetcode.com")
-        self.leetcode_cn_url = conf.get('leetcode', 'cn_url', fallback="https://leetcode.cn/")
-        self.leetcode_url = conf.get('leetcode', self.leetcode_use_country.join('_url'), fallback=self.leetcode_cn_url)
+        self.leetcode_cn_url = conf.get('leetcode', 'cn_url', fallback="https://leetcode-cn.com")
+        self.leetcode_url = conf.get('leetcode', self.leetcode_use_country + '_url', fallback=self.leetcode_cn_url)
         self.leetcode_user_name = conf.get('leetcode', 'user_name', fallback="")
         self.leetcode_user_password = conf.get('leetcode', 'user_password', fallback="")
 

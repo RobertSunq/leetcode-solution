@@ -23,12 +23,13 @@ class problems:
     def __init__(self):
         self.login = login(config.leetcode_user_name, config.leetcode_user_password)
         self.__cookies = self.login.cookies
+        self.__headers = self.login.headers
         self.problems_json = self.__get_problems_json()
         self.db = db()
         self.sql_placeholder = "?" if self.db.type == SQLITE3 else "%s"
 
     def __get_problems_json(self):
-        resp = requests.get(PROBLEMS, headers=HEADERS, cookies=self.__cookies)
+        resp = requests.get(PROBLEMS, headers=self.__headers, cookies=self.__cookies)
         if resp.status_code == 200:
             return resp.json()
 
@@ -98,7 +99,7 @@ class problems:
                 'titleSlug': title_slug
             }
         }
-        async with aiohttp.ClientSession(cookies=self.__cookies) as session:
+        async with aiohttp.ClientSession(headers=self.__headers, cookies=self.__cookies) as session:
             async with session.post(GRAPHQL, json=payload,
                                     headers=HEADERS) as resp:
                 return await resp.json()
@@ -183,14 +184,14 @@ class problems:
                 'questionSlug': title_slug
             }
         }
-        async with aiohttp.ClientSession(cookies=self.__cookies) as session:
+        async with aiohttp.ClientSession(headers=self.__headers, cookies=self.__cookies) as session:
             async with session.post(GRAPHQL, json=payload,
                                     headers=HEADERS) as resp:
                 return await resp.json(), title_slug
 
     async def __get_code(self, qid, lang):
         url = CODE_FORMAT.format(qid, lang)
-        async with aiohttp.ClientSession(cookies=self.__cookies) as session:
+        async with aiohttp.ClientSession(headers=self.__headers, cookies=self.__cookies) as session:
             async with session.get(url, headers=HEADERS) as resp:
                 return await resp.json(), qid, lang
 

@@ -41,10 +41,10 @@ async def handle_tasks(loop, func, args):
             time.sleep(config.task_time_interval)
             for task in finished:
                 if task.exception():
-                    coro = tasks[task]
-                    # print(f"{coro} retry...")
-                    new_task = asyncio.ensure_future(coro())
-                    tasks[new_task] = coro
+                    cor = tasks[task]
+                    print(f"{cor} has error: {task.exception()} \nretry again")
+                    new_task = asyncio.ensure_future(cor())
+                    tasks[new_task] = cor
                     pending.add(new_task)
                 else:
                     res.append(task.result())
