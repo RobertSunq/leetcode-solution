@@ -939,10 +939,14 @@ https://codetop.cc/#/home
 |      | [剑指 Offer II 105. 岛屿的最大面积](https://leetcode.cn/problems/ZL6zAn/) |      |
 |      | [剑指 Offer II 106. 二分图](https://leetcode.cn/problems/vEAB3K/) | 1    |
 |      | [LCR 107. 01 矩阵](https://leetcode.cn/problems/2bCMpM/)     |      |
-|      | [剑指 Offer II 108. 单词演变](https://leetcode.cn/problems/om3reC/) |      |
+|      | [LCR 108. 单词接龙](https://leetcode.cn/problems/om3reC/)    | 5    |
 |      | [LCR 109. 打开转盘锁](https://leetcode.cn/problems/zlDJc7/)  | 5    |
 
-> 
+> [LCR 108. 单词接龙](https://leetcode.cn/problems/om3reC/)
+>
+> [LCR 109. 打开转盘锁](https://leetcode.cn/problems/zlDJc7/)
+>
+> 两道题对比着看看
 
 
 
@@ -954,16 +958,26 @@ https://codetop.cc/#/home
 | ---- | ------------------------------------------------------------ | ---- |
 |      | [LCR 110. 所有可能的路径](https://leetcode.cn/problems/bP4bmD/) |      |
 |      | [LCR 111. 除法求值](https://leetcode.cn/problems/vlzXQL/)    |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
-|      |                                                              |      |
+|      | [LCR 112. 矩阵中的最长递增路径](https://leetcode.cn/problems/fpTFWP/) | 6    |
+|      | [LCR 113. 课程表 II](https://leetcode.cn/problems/QA2IGt/)   |      |
+|      | [LCR 114. 火星词典](https://leetcode.cn/problems/Jf1JuT/)    | 2    |
+|      | [LCR 115. 序列重建](https://leetcode.cn/problems/ur2n8P/)    |      |
+|      | [LCR 116. 省份数量](https://leetcode.cn/problems/bLyHh0/)    |      |
+|      | [LCR 117. 相似字符串组](https://leetcode.cn/problems/H6lPxb/) | 5    |
+|      | [LCR 118. 冗余连接](https://leetcode.cn/problems/7LpjUW/)    | 3    |
+|      | [LCR 119. 最长连续序列](https://leetcode.cn/problems/WhsWhI/) | 2    |
 
-> 
+> [LCR 114. 火星词典](https://leetcode.cn/problems/Jf1JuT/)
+>
+> [LCR 113. 课程表 II](https://leetcode.cn/problems/QA2IGt/)
+>
+> 对比分析
+>
+> [LCR 117. 相似字符串组](https://leetcode.cn/problems/H6lPxb/)  并查集
+>
+> [LCR 119. 最长连续序列](https://leetcode.cn/problems/WhsWhI/)  比较有意思的一道题
+
+
 
 
 
