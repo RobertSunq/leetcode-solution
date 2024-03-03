@@ -2,19 +2,26 @@
 ```
 // @Title: 打家劫舍 (House Robber)
 // @Author: robert.sunq
-// @Date: 2021-06-15 01:04:35
+// @Date: 2023-09-21 21:21:20
 // @Runtime: 0 ms
-// @Memory: 35.7 MB
+// @Memory: 38.8 MB
 
 class Solution {
     public int rob(int[] nums) {
-        if(nums.length == 1) return nums[0];
-        int[] dp = new int[nums.length];
-        dp[0] = nums[0];
-        dp[1] = Math.max(nums[1],nums[0]);
-        for(int i = 2;i<nums.length;i++){
-            dp[i] = Math.max(dp[i-1],dp[i-2]+nums[i]);
+        int n = nums.length;
+        if (n < 2) {
+            return nums[0];
         }
-        return dp[nums.length-1];
+
+        int dp0 = nums[0];
+        int dp1 = Math.max(dp0, nums[1]);
+        int i = 2;
+        while (i < n) {
+            int tmp = Math.max(dp0 + nums[i], dp1);
+            dp0 = dp1;
+            dp1 = tmp;
+            i++;
+        }
+        return dp1;
     }
 }

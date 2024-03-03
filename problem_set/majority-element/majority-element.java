@@ -2,27 +2,28 @@
 ```
 // @Title: 多数元素 (Majority Element)
 // @Author: robert.sunq
-// @Date: 2021-06-14 22:30:48
+// @Date: 2023-10-08 21:44:00
 // @Runtime: 1 ms
-// @Memory: 44.3 MB
+// @Memory: 47.3 MB
 
 class Solution {
     public int majorityElement(int[] nums) {
-        if (nums.length <= 0) return -1;
-        int temp = nums[0] , n = 0;
-        for(int i = 0;i<nums.length;i++){
-            if(n == 0) {
-               temp=nums[i]; 
-               n++;
-            }
-            else{
-                if(nums[i] == temp){
-                    n++;
-                }else{
-                    n--;
+        int ans = nums[0];
+        int count = 1;
+        int i = 1;
+        while (i < nums.length) {
+            if (nums[i] != ans) {
+                count--;
+                if (count == 0) {
+                    ans = nums[i];
+                    count = 1;
                 }
+            } else {
+                count++;
             }
-        } 
-        return temp;
+            i++;
+        }
+
+        return ans;
     }
 }

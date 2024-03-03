@@ -262,18 +262,18 @@
 
 
 
-| #    | 题名                                | 难度 |
-| ---- | ----------------------------------- | ---- |
-| 46   | 46. 全排列                          | 2    |
-| 48   | 48. 旋转图像                        | 2    |
-| 49   | 49. 字母异位词分组                  | 2    |
-| 53   | 53. 最大子序和                      | 3    |
-| 55   | 55. 跳跃游戏                        | 2    |
-| 56   | 56. 合并区间                        | 3    |
-| 62   | 62. 不同路径                        | 3    |
-| 64   | 64. 最小路径和                      | 3    |
-| 70   | 70. 爬楼梯                          | 2    |
-| 72   | <font color=red>72. 编辑距离</font> | 5    |
+| #    | 题名                                                     | 难度 |
+| ---- | -------------------------------------------------------- | ---- |
+| 46   | [46. 全排列](https://leetcode.cn/problems/permutations/) | 2    |
+| 48   | 48. 旋转图像                                             | 2    |
+| 49   | 49. 字母异位词分组                                       | 2    |
+| 53   | 53. 最大子序和                                           | 3    |
+| 55   | 55. 跳跃游戏                                             | 2    |
+| 56   | 56. 合并区间                                             | 3    |
+| 62   | 62. 不同路径                                             | 3    |
+| 64   | 64. 最小路径和                                           | 3    |
+| 70   | 70. 爬楼梯                                               | 2    |
+| 72   | <font color=red>72. 编辑距离</font>                      | 5    |
 
 > 编辑距离
 
@@ -1000,8 +1000,6 @@ https://codetop.cc/#/home
 
 
 
-## 
-
 | #    | 题名                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ---- |
 |      | [392. 判断子序列](https://leetcode.cn/problems/is-subsequence/) |      |
@@ -1019,8 +1017,6 @@ https://codetop.cc/#/home
 
 
 
-## 
-
 | #    | 题名                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ---- |
 |      | [1207. 独一无二的出现次数](https://leetcode.cn/problems/unique-number-of-occurrences/) |      |
@@ -1031,6 +1027,107 @@ https://codetop.cc/#/home
 |      | [394. 字符串解码](https://leetcode.cn/problems/decode-string/) | 2    |
 |      | [933. 最近的请求次数](https://leetcode.cn/problems/number-of-recent-calls/) |      |
 |      | [649. Dota2 参议院](https://leetcode.cn/problems/dota2-senate/) |      |
+|      | [2095. 删除链表的中间节点](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/) |      |
+|      | [328. 奇偶链表](https://leetcode.cn/problems/odd-even-linked-list/) |      |
+
+> 
+
+
+
+
+
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/) |      |
+|      | [2130. 链表最大孪生和](https://leetcode.cn/problems/maximum-twin-sum-of-a-linked-list/) |      |
+|      | [104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/) |      |
+|      | [872. 叶子相似的树](https://leetcode.cn/problems/leaf-similar-trees/) |      |
+|      | [1448. 统计二叉树中好节点的数目](https://leetcode.cn/problems/count-good-nodes-in-binary-tree/) |      |
+|      | [437. 路径总和 III](https://leetcode.cn/problems/path-sum-iii/) |      |
+|      | [1372. 二叉树中的最长交错路径](https://leetcode.cn/problems/longest-zigzag-path-in-a-binary-tree/) |      |
+|      | [236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/) |      |
+|      | [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/) |      |
+|      | [1161. 最大层内元素和](https://leetcode.cn/problems/maximum-level-sum-of-a-binary-tree/) |      |
+
+> 
+
+
+
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [700. 二叉搜索树中的搜索](https://leetcode.cn/problems/search-in-a-binary-search-tree/) |      |
+|      | [450. 删除二叉搜索树中的节点](https://leetcode.cn/problems/delete-node-in-a-bst/) | 3    |
+|      | [841. 钥匙和房间](https://leetcode.cn/problems/keys-and-rooms/) |      |
+|      | [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/) |      |
+|      | [1466. 重新规划路线](https://leetcode.cn/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | 4    |
+|      | [399. 除法求值](https://leetcode.cn/problems/evaluate-division/) | 3    |
+|      | [1926. 迷宫中离入口最近的出口](https://leetcode.cn/problems/nearest-exit-from-entrance-in-maze/) | 3    |
+|      | [994. 腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/) |      |
+|      | [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/) |      |
+|      | [2336. 无限集中的最小数字](https://leetcode.cn/problems/smallest-number-in-infinite-set/) | 2    |
+
+> 
+
+
+
+
+
+
+
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [2542. 最大子序列的分数](https://leetcode.cn/problems/maximum-subsequence-score/) | 6    |
+|      | [2462. 雇佣 K 位工人的总代价](https://leetcode.cn/problems/total-cost-to-hire-k-workers/) | 3    |
+|      | [374. 猜数字大小](https://leetcode.cn/problems/guess-number-higher-or-lower/) |      |
+|      | [2300. 咒语和药水的成功对数](https://leetcode.cn/problems/successful-pairs-of-spells-and-potions/) |      |
+|      | [162. 寻找峰值](https://leetcode.cn/problems/find-peak-element/) | 2    |
+|      | [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/) | 2    |
+|      | [17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/) | 2    |
+|      | [216. 组合总和 III](https://leetcode.cn/problems/combination-sum-iii/) | 1    |
+|      | [1137. 第 N 个泰波那契数](https://leetcode.cn/problems/n-th-tribonacci-number/) |      |
+|      | [746. 使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs/) |      |
+
+> 
+
+
+
+
+
+
+
+ 
+
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)  |      |
+|      | [790. 多米诺和托米诺平铺](https://leetcode.cn/problems/domino-and-tromino-tiling/) | 5    |
+|      | [62. 不同路径](https://leetcode.cn/problems/unique-paths/)   |      |
+|      | [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/) |      |
+|      | [714. 买卖股票的最佳时机含手续费](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | 5    |
+|      | [72. 编辑距离](https://leetcode.cn/problems/edit-distance/)  |      |
+|      | [338. 比特位计数](https://leetcode.cn/problems/counting-bits/) |      |
+|      | [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/) |      |
+|      | [1318. 或运算的最小翻转次数](https://leetcode.cn/problems/minimum-flips-to-make-a-or-b-equal-to-c/) |      |
+|      | [1318. 或运算的最小翻转次数](https://leetcode.cn/problems/minimum-flips-to-make-a-or-b-equal-to-c/) |      |
+
+> 
+
+
+
+
+
+
+
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/) |      |
+|      | [1268. 搜索推荐系统](https://leetcode.cn/problems/search-suggestions-system/) |      |
+|      | [435. 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/) | 3    |
+|      | [452. 用最少数量的箭引爆气球](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/) |      |
+|      | [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/) |      |
+|      | [901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span/) |      |
+|      |                                                              |      |
+|      |                                                              |      |
 |      |                                                              |      |
 |      |                                                              |      |
 
@@ -1040,66 +1137,24 @@ https://codetop.cc/#/home
 
 
 
-## 
-
-| #    | 题名 | 难度 |
-| ---- | ---- | ---- |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-
-> 
 
 
 
 
+##  **面试经典 150 题**
 
-
-
-## 
-
-| #    | 题名 | 难度 |
-| ---- | ---- | ---- |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-
-> 
-
-
-
-
-
-
-
-## 
-
-| #    | 题名 | 难度 |
-| ---- | ---- | ---- |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [88. 合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/) |      |
+|      | [27. 移除元素](https://leetcode.cn/problems/remove-element/) |      |
+|      | [26. 删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/) |      |
+|      | [80. 删除有序数组中的重复项 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/) |      |
+|      | [169. 多数元素](https://leetcode.cn/problems/majority-element/) |      |
+|      | [189. 轮转数组](https://leetcode.cn/problems/rotate-array/)  |      |
+|      | [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/) |      |
+|      | [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/) |      |
+|      | [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)      | 1    |
+|      | [274. H 指数](https://leetcode.cn/problems/h-index/)         | 2    |
 
 > 
 
@@ -1111,20 +1166,20 @@ https://codetop.cc/#/home
 
 
 
-## 
 
-| #    | 题名 | 难度 |
-| ---- | ---- | ---- |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
+
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [380. O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/) |      |
+|      | [238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/) |      |
+|      | [134. 加油站](https://leetcode.cn/problems/gas-station/)     | 2    |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
 
 > 
 
@@ -1136,7 +1191,7 @@ https://codetop.cc/#/home
 
 
 
-## 
+
 
 | #    | 题名 | 难度 |
 | ---- | ---- | ---- |
@@ -1161,7 +1216,7 @@ https://codetop.cc/#/home
 
 
 
-## 
+
 
 | #    | 题名 | 难度 |
 | ---- | ---- | ---- |
@@ -1186,7 +1241,159 @@ https://codetop.cc/#/home
 
 
 
-## 
+## 每日一题
+
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [股票价格波动](https://leetcode.cn/problems/stock-price-fluctuation/) |      |
+|      | [2578. 最小和分割](https://leetcode.cn/problems/split-with-minimum-sum/) |      |
+|      | [2731. 移动机器人](https://leetcode.cn/problems/movement-of-robots/) | 3    |
+|      | [2512. 奖励最顶尖的 K 名学生](https://leetcode.cn/problems/reward-top-k-students/) |      |
+|      | [2562. 找出数组的串联值](https://leetcode.cn/problems/find-the-array-concatenation-value/) |      |
+|      | [1488. 避免洪水泛滥](https://leetcode.cn/problems/avoid-flood-in-the-city/) | 3    |
+|      | [137. 只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/) |      |
+|      | [260. 只出现一次的数字 III](https://leetcode.cn/problems/single-number-iii/) | 3    |
+|      | [2652. 倍数求和](https://leetcode.cn/problems/sum-multiples/) |      |
+|      | [2530. 执行 K 次操作后的最大分数](https://leetcode.cn/problems/maximal-score-after-applying-k-operations/) |      |
+
+> 
+
+```java
+class Solution {
+    public int singleNumber(int[] nums) {
+        // 计算每一位1的数量， 然后对每一位进行对3趋于
+
+        int ans = 0;
+        for (int i = 0; i < 32; i++) {
+            int count = 0;
+            for (int n : nums) {
+                count = count + ((n >> i) & 1);
+            }
+            if (count %3 != 0) {
+                ans = ans  | (1 << i);
+            }
+        }
+        return ans;
+    }
+}
+```
+
+
+
+
+
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [1726. 同积元组](https://leetcode.cn/problems/tuple-with-same-product/) | 3    |
+|      | [2316. 统计无向图中无法互相到达点对数](https://leetcode.cn/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) |      |
+|      | [1402. 做菜顺序](https://leetcode.cn/problems/reducing-dishes/) |      |
+|      | [2678. 老人的数目](https://leetcode.cn/problems/number-of-senior-citizens/) |      |
+|      | [1155. 掷骰子等于目标和的方法数](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/) |      |
+|      | [2698. 求一个整数的惩罚数](https://leetcode.cn/problems/find-the-punishment-number-of-an-integer/) | 2    |
+|      | [2520. 统计能整除数字的位数](https://leetcode.cn/problems/count-the-digits-that-divide-a-number/) |      |
+|      | [1465. 切割后面积最大的蛋糕](https://leetcode.cn/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/) |      |
+|      | [2558. 从数量最多的堆取走礼物](https://leetcode.cn/problems/take-gifts-from-the-richest-pile/) |      |
+|      | [274. H 指数](https://leetcode.cn/problems/h-index/)         | 1    |
+
+> 
+
+
+
+
+
+
+
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [275. H 指数 II](https://leetcode.cn/problems/h-index-ii/)   | 1    |
+|      | [2003. 每棵子树内缺失的最小基因值](https://leetcode.cn/problems/smallest-missing-genetic-value-in-each-subtree/) | 4    |
+|      | [2127. 参加会议的最多员工数](https://leetcode.cn/problems/maximum-employees-to-be-invited-to-a-meeting/) | 4    |
+|      | [2103. 环和杆](https://leetcode.cn/problems/rings-and-rods/) |      |
+|      | [117. 填充每个节点的下一个右侧节点指针 II](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/) |      |
+|      | [318. 最大单词长度乘积](https://leetcode.cn/problems/maximum-product-of-word-lengths/) | 3    |
+|      | [2586. 统计范围内的元音字符串数](https://leetcode.cn/problems/count-the-number-of-vowel-strings-in-range/) |      |
+|      | [2609. 最长平衡子字符串](https://leetcode.cn/problems/find-the-longest-balanced-substring-of-a-binary-string/) | 3    |
+|      | [2258. 逃离火灾](https://leetcode.cn/problems/escape-the-spreading-fire/) | 4    |
+|      | [765. 情侣牵手](https://leetcode.cn/problems/couples-holding-hands/) | 4    |
+
+> [2127. 参加会议的最多员工数](https://leetcode.cn/problems/maximum-employees-to-be-invited-to-a-meeting/solutions/1190222/can-jia-hui-yi-de-zui-duo-yuan-gong-shu-u8e8u/)
+
+
+
+
+
+
+
+
+
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [715. Range 模块](https://leetcode.cn/problems/range-module/) | 2    |
+|      | [307. 区域和检索 - 数组可修改](https://leetcode.cn/problems/range-sum-query-mutable/) | 1    |
+|      | [1334. 阈值距离内邻居最少的城市](https://leetcode.cn/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | 1    |
+|      | [2656. K 个元素的最大和](https://leetcode.cn/problems/maximum-sum-with-exactly-k-elements/) |      |
+|      | [2760. 最长奇偶子数组](https://leetcode.cn/problems/longest-even-odd-subarray-with-threshold/) |      |
+|      | [2736. 最大和查询](https://leetcode.cn/problems/maximum-sum-queries/) | 3    |
+|      | [2342. 数位和相等数对的最大和](https://leetcode.cn/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) |      |
+|      | [689. 三个无重叠子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-3-non-overlapping-subarrays/) | 3    |
+|      | [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/) | 4    |
+|      | [2216. 美化数组的最少删除数](https://leetcode.cn/problems/minimum-deletions-to-make-array-beautiful/) |      |
+
+> 
+
+
+
+
+
+
+
+
+
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [2304. 网格中的最小路径代价](https://leetcode.cn/problems/minimum-path-cost-in-a-grid/) |      |
+|      | [1410. HTML 实体解析器](https://leetcode.cn/problems/html-entity-parser/) |      |
+|      | [2824. 统计和小于目标的下标对数目](https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/) |      |
+|      | [1457. 二叉树中的伪回文路径](https://leetcode.cn/problems/pseudo-palindromic-paths-in-a-binary-tree/) |      |
+|      | [828. 统计子串中的唯一字符](https://leetcode.cn/problems/count-unique-characters-of-all-substrings-of-a-given-string/) | 3    |
+|      | [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums/) |      |
+|      | [1670. 设计前中后队列](https://leetcode.cn/problems/design-front-middle-back-queue/) |      |
+|      | [2336. 无限集中的最小数字](https://leetcode.cn/problems/smallest-number-in-infinite-set/) |      |
+|      | [1657. 确定两个字符串是否接近](https://leetcode.cn/problems/determine-if-two-strings-are-close/) | 2    |
+|      | [2661. 找出叠涂元素](https://leetcode.cn/problems/first-completely-painted-row-or-column/) |      |
+
+> 
+
+
+
+
+
+
+
+
+
+| #    | 题名                                                         | 难度 |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | [1094. 拼车](https://leetcode.cn/problems/car-pooling/)      | 3    |
+|      | [1423. 可获得的最大点数](https://leetcode.cn/problems/maximum-points-you-can-obtain-from-cards/) | 2    |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+|      |                                                              |      |
+
+> 
+
+
+
+
+
+
+
+
 
 | #    | 题名 | 难度 |
 | ---- | ---- | ---- |
@@ -1211,7 +1418,28 @@ https://codetop.cc/#/home
 
 
 
-## 
+| #    | 题名 | 难度 |
+| ---- | ---- | ---- |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+> 
+
+
+
+
+
+
+
+
 
 | #    | 题名 | 难度 |
 | ---- | ---- | ---- |
@@ -1236,7 +1464,28 @@ https://codetop.cc/#/home
 
 
 
-## 
+| #    | 题名 | 难度 |
+| ---- | ---- | ---- |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+> 
+
+
+
+
+
+
+
+
 
 | #    | 题名 | 难度 |
 | ---- | ---- | ---- |
@@ -1261,7 +1510,120 @@ https://codetop.cc/#/home
 
 
 
-## 
+| #    | 题名 | 难度 |
+| ---- | ---- | ---- |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+> 
+
+
+
+
+
+
+
+
+
+| #    | 题名 | 难度 |
+| ---- | ---- | ---- |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+> 
+
+
+
+
+
+
+
+
+
+| #    | 题名 | 难度 |
+| ---- | ---- | ---- |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+> 
+
+
+
+
+
+
+
+
+
+| #    | 题名 | 难度 |
+| ---- | ---- | ---- |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+> 
+
+
+
+
+
+
+
+
+
+| #    | 题名 | 难度 |
+| ---- | ---- | ---- |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+> 
+
+
+
+
+
+
+
+
 
 | #    | 题名 | 难度 |
 | ---- | ---- | ---- |
